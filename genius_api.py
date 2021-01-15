@@ -1,17 +1,18 @@
+import config
 import random
 from lyricsgenius import Genius
 
 # -------------------- GENIUS API SETUP -----------------
-client_id = "LqaxuVXGuYxoMR_nC2N8J0Ftte6snKzPJLeldHGx8xl5HFY3M7ba-_RYbO9ZSsk7"
-client_secret_id = "db5KzQ9ljW_cIozFoQflej8SnqC3QL-Hm_8dtDr8VcpaPrOZMmhiGCjCWxCjaA57pK6D9TFat3OWxftZ09hxcw"
-client_access_token = "x8UFMB2mi14fkP7KeCYBcvsteIMQ_0cG7LOTEJN-EqudunfTQp0LhUNqxl_arABr"
+genius_client_id = config.genius_client_id
+genius_client_secret_id = config.genius_client_secret_id
+genius_client_access_token = config.genius_client_access_token
 # -------------------------------------------------------
 
 # Set "MF DOOM" artist_id
 DOOM_ARTIST_ID = 70
 
 
-def make_tweet():
+def get_tweet_info():
     # Create a new genius object
     genius = Genius(client_access_token)
 
@@ -41,5 +42,11 @@ def make_tweet():
 
     # Pick a random annotation for the selected song
     selected_lyric = random.choice(genius.song_annotations(selected_song['id']))[0]
-    tweet = selected_lyric + "\n\n(" + selected_song['title_with_featured'] + ", " + selected_album['name'] + ")"
-    return tweet
+    tweet_text = selected_lyric + "\n\n(" + selected_song['title_with_featured'] + ", " + selected_album['name'] + ")"
+    return tweet_text
+
+
+
+
+if __name__ == '__main__':
+    main()
