@@ -19,13 +19,13 @@ api = tweepy.API(auth)
 
 
 # ~~~~~~~~~~~~~~~~~~~~ Main Script ~~~~~~~~~~~~~~~~~~~~~~~~
-# "Hello world" example
+# # "Hello world" example
 # api.update_status('Hello world')
 
-# # Example to post random quote from quote_api.py
-# def tweet_quote():
-#     tweet = quote_api.get_quote()
-#     status = api.update_status(tweet)
-#     print(status.id)
-#
-# tweet_quote()
+# Example to post random quote from quote_api.py
+def tweet_quote():
+    tweet = quote_api.get_quote()
+    status = api.update_status(tweet)
+    print(status.id)
+
+tweet_quote()
