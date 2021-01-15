@@ -11,7 +11,7 @@ headers = {
 querystring = {"count": "1"}        # Get just one recipe
 # ---------------------------------------------------------
 
-# -------------------- FUNCTIONS ----- --------------------
+# -------------------- FUNCTIONS --------------------------
 
 
 # Gets a random quote from the API and returns tweet object (string-ish)
