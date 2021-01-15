@@ -1,0 +1,10 @@
+[{"quote":"The difference between 'involvement' and 'commitment' is like an eggs-and-ham breakfast: the chicken was 'involved' the pig was 'committed'."
+,"author":"unknown","category":"Famous"},{"quote":"The significant problems we face cannot be solved at the same level of thinking we were at when we cr
+eated them.","author":"Albert Einstein","category":"Famous"},{"quote":"The power of accurate observation is frequently called cynicism by those who don'
+t have it.","author":"George Bernard Shaw","category":"Famous"},{"quote":"I don't know why we are here, but I'm pretty sure that it is not in order to e
+njoy ourselves.","author":"Ludwig Wittgenstein","category":"Famous"},{"quote":"Women might be able to fake orgasms. But men can fake a whole relationshi
+p.","author":"Sharon Stone","category":"Famous"},{"quote":"People demand freedom of speech to make up for the freedom of thought which they avoid.","aut
+hor":"Soren Aabye Kierkegaard","category":"Famous"},{"quote":"I begin by taking. I shall find scholars later to demonstrate my perfect right.","author":
+"Frederick (II) the Great","category":"Famous"},{"quote":"I find that the harder I work, the more luck I seem to have.","author":"Thomas Jefferson","cat
+egory":"Famous"},{"quote":"Everybody pities the weak; jealousy you have to earn.","author":"Arnold Schwarzenegger","category":"Famous"},{"quote":"If you
+ are going through hell, keep going.","author":"Sir Winston Churchill ","category":"Famous"}]
