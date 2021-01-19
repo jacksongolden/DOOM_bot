@@ -46,7 +46,10 @@ def get_tweet_info():
     return tweet_text
 
 
-
+def main():
+    genius = Genius(genius_client_access_token)
+    album = genius.search_albums("Keys to the Kuffs")
+    print(album)
 
 if __name__ == '__main__':
     main()
